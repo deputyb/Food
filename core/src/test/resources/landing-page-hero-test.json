@@ -1,0 +1,168 @@
+{
+   "jcr:primaryType":"cq:Page",
+   "jcr:createdBy":"admin",
+   "jcr:created":"Tue Nov 24 2015 11:14:41 GMT+0100",
+   "jcr:content":{
+      "jcr:primaryType":"cq:PageContent",
+      "jcr:createdBy":"admin",
+      "jcr:title":"test",
+      "cq:template":"/apps/wegmans/templates/page-templates/generic-page-template",
+      "jcr:created":"Tue Nov 24 2015 11:14:41 GMT+0100",
+      "cq:lastModified":"Fri Dec 04 2015 11:39:49 GMT+0100",
+      "sling:resourceType":"wegmans/components/pages/generic-page",
+      "cq:designPath":"/etc/designs/wegmans",
+      "cq:lastModifiedBy":"admin",
+      "navigation":{
+         "jcr:primaryType":"nt:unstructured",
+         "jcr:lastModifiedBy":"admin",
+         "jcr:lastModified":"Tue Nov 24 2015 11:19:32 GMT+0100",
+         "sling:resourceType":"wegmans/components/content/header",
+         "headerSize":"H1",
+         "headerText":"Test"
+      },
+      "content":{
+         "jcr:primaryType":"nt:unstructured",
+         "sling:resourceType":"foundation/components/parsys",
+         "primary_navigation":{
+            "jcr:primaryType":"nt:unstructured",
+            "jcr:createdBy":"admin",
+            "jcr:lastModifiedBy":"admin",
+            "jcr:created":"Tue Nov 24 2015 11:48:34 GMT+0100",
+            "jcr:lastModified":"Tue Nov 24 2015 11:49:19 GMT+0100",
+            "sling:resourceType":"wegmans/components/content/primary-navigation",
+            "items":{
+               "jcr:primaryType":"nt:unstructured",
+               "1":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "pagePath":"/content/phonegap",
+                  "pageTitle":"page1"
+               },
+               "2":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "showSecondary":"true",
+                  "pagePath":"/content/geometrixx-outdoors",
+                  "pageTitle":"page2"
+               },
+               "3":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "pagePath":"/content/communities/templates",
+                  "pageTitle":"page3"
+               }
+            },
+            "navigationItems":{
+               "jcr:primaryType":"nt:unstructured",
+               "sling:resourceType":"foundation/components/parsys",
+               "adaptiveimage":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "jcr:createdBy":"admin",
+                  "jcr:lastModifiedBy":"admin",
+                  "jcr:created":"Fri Dec 04 2015 10:38:51 GMT+0100",
+                  "jcr:lastModified":"Fri Dec 04 2015 10:38:51 GMT+0100",
+                  "sling:resourceType":"foundation/components/adaptiveimage"
+               },
+               "primary_navigation_i":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "jcr:createdBy":"admin",
+                  "jcr:lastModifiedBy":"admin",
+                  "jcr:created":"Tue Nov 24 2015 12:38:49 GMT+0100",
+                  "pagePath":"/content/geometrixx/de/services",
+                  "jcr:lastModified":"Thu Nov 26 2015 12:38:36 GMT+0100",
+                  "sling:resourceType":"wegmans/components/content/primary-navigation-item"
+               },
+               "primary_navigation_i_470687761":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "jcr:createdBy":"admin",
+                  "jcr:lastModifiedBy":"admin",
+                  "jcr:created":"Tue Nov 24 2015 12:41:47 GMT+0100",
+                  "pagePath":"/content/usergenerated",
+                  "pageTitle":"Item 2",
+                  "jcr:lastModified":"Tue Nov 24 2015 12:41:58 GMT+0100",
+                  "sling:resourceType":"wegmans/components/content/primary-navigation-item"
+               },
+               "primary_navigation_i_1997974107":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "jcr:createdBy":"admin",
+                  "jcr:lastModifiedBy":"admin",
+                  "jcr:created":"Tue Nov 24 2015 12:42:08 GMT+0100",
+                  "pagePath":"/content/launches",
+                  "pageTitle":"Item 3",
+                  "jcr:lastModified":"Wed Nov 25 2015 14:34:52 GMT+0100",
+                  "sling:resourceType":"wegmans/components/content/primary-navigation-item"
+               },
+               "primary_navigation_i_376677109":{
+                  "jcr:primaryType":"nt:unstructured",
+                  "jcr:createdBy":"admin",
+                  "jcr:lastModifiedBy":"admin",
+                  "jcr:created":"Tue Nov 24 2015 18:38:36 GMT+0100",
+                  "pagePath":"/content/sites",
+                  "pageTitle":"Item 4",
+                  "jcr:lastModified":"Tue Nov 24 2015 18:42:06 GMT+0100",
+                  "sling:resourceType":"wegmans/components/content/primary-navigation-item"
+               }
+            }
+         },
+         "textimage":{
+            "jcr:primaryType":"nt:unstructured",
+            "jcr:createdBy":"admin",
+            "jcr:lastModifiedBy":"admin",
+            "jcr:created":"Fri Dec 04 2015 11:04:31 GMT+0100",
+            "jcr:lastModified":"Fri Dec 04 2015 11:04:31 GMT+0100",
+            "sling:resourceType":"foundation/components/textimage"
+         },
+         "landing_page_hero":{
+            "jcr:primaryType":"nt:unstructured",
+            "subtitle":"Regionally sourced vegetables from local farms.",
+            "jcr:createdBy":"admin",
+            "jcr:lastModifiedBy":"admin",
+            "layout":"layout2",
+            "jcr:created":"Thu Dec 03 2015 15:39:58 GMT+0100",
+            "image":"/content/dam/geometrixx/banners/banner-web20.png",
+            "title":"The Freshest Produce",
+            "jcr:lastModified":"Fri Dec 04 2015 11:23:40 GMT+0100",
+            "linkButtonLabel":"Learn more",
+            "sling:resourceType":"wegmans/components/content/landing-page-hero",
+            "linkButtonUrl":"/content/geometrixx-outdoors/en/equipment"
+         },
+         "landing_page_hero_585854445": {
+            "jcr:primaryType": "nt:unstructured",
+            "subtitle": "Subtitle external",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "layout": "layout1",
+            "jcr:created": "Fri Dec 04 2015 11:48:43 GMT+0100",
+            "image": "/content/dam/geometrixx-media/ads/fremont_ad.png",
+            "title": "Title external",
+            "jcr:lastModified": "Fri Dec 04 2015 11:50:24 GMT+0100",
+            "linkButtonLabel": "Learn more",
+            "sling:resourceType": "wegmans/components/content/landing-page-hero",
+            "linkButtonUrl": "http://google.com"
+        }
+      },
+      "footer":{
+         "jcr:primaryType":"nt:unstructured",
+         "jcr:lastModifiedBy":"admin",
+         "jcr:lastModified":"Thu Nov 26 2015 13:14:52 GMT+0100",
+         "sling:resourceType":"wegmans/components/content/navigation/footer",
+         "items":{
+            "jcr:primaryType":"nt:unstructured",
+            "1":{
+               "jcr:primaryType":"nt:unstructured",
+               "pagePath":"/content/geometrixx-outdoors-mobile/en/women/shirts/tupai-summer"
+            },
+            "2":{
+               "jcr:primaryType":"nt:unstructured",
+               "pagePath":"/content/geometrixx-outdoors/en/equipment/running/mombassa-runners",
+               "pageTitle":"Item 2"
+            }
+         }
+      },
+      "header":{
+         "jcr:primaryType":"nt:unstructured",
+         "jcr:lastModifiedBy":"admin",
+         "jcr:lastModified":"Wed Nov 25 2015 17:18:22 GMT+0100",
+         "sling:resourceType":"wegmans/components/content/header",
+         "headerSize":"H1",
+         "headerText":"test"
+      }
+   }
+}

@@ -1,0 +1,27 @@
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+/* line 3, stdin */
+html, body {
+  background: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 10px; }
+
+/* line 9, stdin */
+.cq-placeholder {
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Panel"
+            title="Properties">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./jcr:content/jcr:title"/>
+                <subTitle
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Sub Title"
+                    xtype="textfield"
+                    name="./jcr:content/subTitle"/>
+                <detail
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Detail"
+                    xtype="richtext"
+                    name="./jcr:content/detail"/>
+                <resType
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./jcr:content/image/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+            </items>
+        </tab1>
+        <tab2
+                jcr:primaryType="cq:Panel"
+                title="Store">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <globalEvent
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Is Global Event?"
+                        type="checkbox"
+                        defaultValue="false"
+                        xtype="selection"
+                        name="./jcr:content/globalEvent"/>
+                <store-multifield
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Stores for Event"
+                        fieldDescription="If global event is checked, store IDs from this list will not be used"
+                        hideLabel="false"
+                        title="Add Stores"
+                        dName="stores"
+                        name="./jcr:content/stores"
+                        xtype="multifield">
+                    <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            allowDecimals="false"
+                            allowNegative="false"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="numberfield">
+                    </fieldConfig>
+                </store-multifield>
+            </items>
+        </tab2>
+        <tab3
+            jcr:primaryType="cq:Panel"
+            title="Image">
+            <items jcr:primaryType="cq:WidgetCollection">
+	 		    <image
+		            jcr:primaryType="cq:Widget"
+		            cropParameter="./jcr:content/image/imageCrop"
+		            ddGroups="[media]"
+		            fileNameParameter="./jcr:content/image/fileName"
+		            fileReferenceParameter="./jcr:content/image/fileReference"
+		            mapParameter="./jcr:content/image/imageMap"
+		            name="./jcr:content/image/file"
+		            requestSuffix="/jcr:content/image.img.png"
+		            rotateParameter="./jcr:content/image/imageRotate"
+		            height="400"
+		            xtype="html5smartimage"/>
+            </items>
+        </tab3>
+    </items>
+</jcr:root>

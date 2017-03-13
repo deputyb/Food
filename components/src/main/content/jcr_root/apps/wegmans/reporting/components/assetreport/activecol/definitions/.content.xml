@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    This column definition contains a custom renderer. A custom renderer is specified as a Javascript function
+    assigned to the view.textRenderer property of the column definition.
+-->
+
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    groupable="{Boolean}true"
+    type="string">
+    <queryBuilder
+        jcr:primaryType="nt:unstructured"
+        property="cq:lastReplicationAction"
+        subPath="jcr:content"/>
+    
+    <filters jcr:primaryType="cq:WidgetCollection">
+        <_x0031_
+            jcr:primaryType="nt:unstructured"
+            filterType="string"
+            id="filter"/>
+    </filters>
+
+    <view jcr:primaryType="nt:unstructured"
+        textRenderer="
+            function(value) {
+                if (value == 'Activate') {
+                    return '&lt;span style=&quot;color:green&quot;&gt;Active&lt;/span&gt;';
+                } else if (value == 'Deactivate') {
+                    return '&lt;span style=&quot;color:red&quot;&gt;Inactive&lt;/span&gt;';
+                } else {
+                    return 'None (inactive)';
+                }
+            }">
+    </view>
+
+</jcr:root>

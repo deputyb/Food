@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Panel"
+            title="Properties">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <firstName
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="First Name"
+                    name="./jcr:content/jcr:firstName"/>
+                <lastName
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Last Name"
+                    xtype="textfield"
+                    name="./jcr:content/jcr:lastName"/>
+                <email
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Email"
+                    xtype="textfield"
+                    name="./jcr:content/jcr:email"/>
+                <twitter
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Twitter"
+                    xtype="textfield"
+                    name="./jcr:content/jcr:twitter"/>
+                <bio
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Bio"
+                    xtype="richtext"
+                    name="./jcr:content/jcr:bio"/>
+                <resType
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./jcr:content/image/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+            </items>
+        </tab1>
+        <tab2
+            jcr:primaryType="cq:Panel"
+            title="Image">
+            <items jcr:primaryType="cq:WidgetCollection">
+	 		    <image
+		            jcr:primaryType="cq:Widget"
+		            cropParameter="./jcr:content/image/imageCrop"
+		            ddGroups="[media]"
+		            fileNameParameter="./jcr:content/image/fileName"
+		            fileReferenceParameter="./jcr:content/image/fileReference"
+		            mapParameter="./jcr:content/image/imageMap"
+		            name="./jcr:content/image/file"
+		            requestSuffix="/jcr:content/image.img.png"
+		            rotateParameter="./jcr:content/image/imageRotate"
+		            height="400"
+		            xtype="html5smartimage"/>
+            </items>
+        </tab2>
+    </items>
+</jcr:root>

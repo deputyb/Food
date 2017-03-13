@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    sling:resourceType="granite/ui/components/foundation/form/select"
+    fieldLabel="Size"
+    name="./headerSize"
+    validateOnBlur="true">
+    <items jcr:primaryType="nt:unstructured">
+        <h1
+            jcr:primaryType="nt:unstructured"
+            text="H1"
+            value="H1"/>
+        <h2
+            jcr:primaryType="nt:unstructured"
+            text="H2"
+            value="H2"/>
+        <h3
+            jcr:primaryType="nt:unstructured"
+            text="H3"
+            value="H3"/>
+        <h4
+            jcr:primaryType="nt:unstructured"
+            text="H4"
+            value="H4"/>
+        <h5
+            jcr:primaryType="nt:unstructured"
+            text="H5"
+            value="H5"/>
+        <h6
+            jcr:primaryType="nt:unstructured"
+            text="H6"
+            value="H6"/>
+    </items>
+    </jcr:root>

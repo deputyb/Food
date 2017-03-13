@@ -1,0 +1,16 @@
+
+.columnTwoA:after {
+      content: url(/etc/clientlibs/wegmans/main/images/columnTwoA.jpg);
+
+}
+
+.columnTwoB:after {
+      content: url(/etc/clientlibs/wegmans/main/images/columnTwoB.jpg);
+
+}
+
+.columnTwoC:after {
+      content: url(/etc/clientlibs/wegmans/main/images/columnTwoC.jpg);
+
+}
+

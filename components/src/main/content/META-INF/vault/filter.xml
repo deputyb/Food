@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+	<filter root="/apps/wegmans/common"/>
+	<filter root="/apps/wegmans/components"/>
+	<filter root="/apps/wegmans/reporting"/>
+	<filter root="/apps/wegmans/templates"/>
+    <filter root="/etc/designs/wegmans"/>
+    <filter root="/etc/scaffolding"/>
+    <filter root="/etc/tags/wegmans"/>
+    <filter root="/etc/clientlibs/wegmans"/>
+</workspaceFilter>

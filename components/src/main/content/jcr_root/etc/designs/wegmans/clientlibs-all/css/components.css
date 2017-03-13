@@ -1,0 +1,132 @@
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+/* line 5, stdin */
+content p {
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+
+/* Enable Hidden Fields For Editing */
+/* line 4, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .cq-placeholder {
+  display: block; }
+
+/* line 10, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+.aem-AuthorLayer-Edit .toggle .content {
+  opacity: .2;
+  display: block; }
+  /* line 11, C:/Users/deputyb/development/workspace/wegmans/wegmans-components/src/main/content/jcr_root/apps/wegmans/common/scss/custom/partials/_authorlayer.scss */
+  .aem-AuthorLayer-Edit .toggle .content:before {
+    content: "HIDDEN:";
+    float: left; }
+
+/* Colors */
+/* Fonts */
+/* line 5, stdin */
+footer h2 {
+  font-size: 12px;
+  font-size: 1.2rem; }
+  /* line 7, stdin */
+  footer h2 a {
+    text-decoration: none;
+    text-transform: uppercase; }
+    /* line 10, stdin */
+    footer h2 a:hover {
+      text-decoration: underline; }
+
+/* line 16, stdin */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+  font-size: 1.1rem; }
+  /* line 22, stdin */
+  footer ul a {
+    text-decoration: none; }
+    /* line 24, stdin */
+    footer ul a:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=components.css.map */

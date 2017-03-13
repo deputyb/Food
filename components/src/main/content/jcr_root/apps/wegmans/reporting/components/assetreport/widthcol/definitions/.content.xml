@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    groupable="{Boolean}false"
+    type="number">
+    <queryBuilder
+        jcr:primaryType="nt:unstructured"
+        property="tiff:ImageWidth"
+        subPath="jcr:content/metadata"/>
+    <filters jcr:primaryType="cq:WidgetCollection">
+        <_x0031_
+            jcr:primaryType="nt:unstructured"
+            filterType="string"
+            id="filter"/>
+    </filters>
+    <aggregates jcr:primaryType="cq:WidgetCollection">
+        <_x0031_
+            jcr:primaryType="nt:unstructured"
+            text="Minimum"
+            type="min"/>
+        <_x0032_
+            jcr:primaryType="nt:unstructured"
+            text="Maximum"
+            type="max"/>
+        <_x0033_
+            jcr:primaryType="nt:unstructured"
+            text="Average"
+            type="average"/>
+        <_x0034_
+            jcr:primaryType="nt:unstructured"
+            text="95th percentile"
+            type="percentile95"/>
+        <_x0035_
+            jcr:primaryType="nt:unstructured"
+            text="Median"
+            type="median"/>
+    </aggregates>
+</jcr:root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Body"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <wellSetgeneral
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/well"
+                        class="hidden list-option-breaknews-showhide-target"
+                        showhidetargetvalue="general">
+                        <items jcr:primaryType="nt:unstructured">
+                            <layoutRadioGroup    
+                                jcr:primaryType="cq:Widget"
+                                sling:resourceType="/apps/wegmans/components/layout/maincontentblock/form/radiogroup"
+                                class="coral-RadioGroup--vertical"
+                                fieldLabel="Layout"
+                                name="./bodyLayout">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <layout1
+                                        jcr:primaryType="cq:Widget"
+                                        sling:resourceType="/apps/wegmans/components/layout/maincontentblock/form/radio"
+                                        text="columnTwoA"
+                                        title="columnTwoA"
+                                        value="columnTwoA" />
+                                    <layout2
+                                        jcr:primaryType="cq:Widget"
+                                        sling:resourceType="/apps/wegmans/components/layout/maincontentblock/form/radio"
+                                        text="columnTwoB"
+                                        title="columnTwoB"
+                                        value="columnTwoB"/>
+                                    <layout3
+                                        jcr:primaryType="cq:Widget"
+                                        sling:resourceType="/apps/wegmans/components/layout/maincontentblock/form/radio"
+                                        text="columnTwoC"
+                                        title="columnTwoC"
+                                        value="columnTwoC"/>
+                                </items>
+                            </layoutRadioGroup>
+                        </items>
+                    </wellSetgeneral>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

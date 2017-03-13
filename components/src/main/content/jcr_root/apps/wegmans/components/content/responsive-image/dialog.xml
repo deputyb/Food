@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          helpPath="en/cq/current/wcm/default_components.html#Text"
+          title="Responsive Image"
+          xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Desktop"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <desktopImage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Choose Desktop Image"
+                    labelSeparator=":"
+                    name="./desktopImage"                    
+                    rootPath="/content/dam"
+                    xtype="pathfield"/>
+            </items>
+        </tab1>
+        <tab2
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Tablet"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <tabletImage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Choose Tablet Image"
+                    labelSeparator=":"
+                    name="./tabletImage"                    
+                    rootPath="/content/dam"
+                    xtype="pathfield"/>
+            </items>
+        </tab2>
+        <tab3
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Mobile"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <mobileImage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Choose Mobile Image"
+                    labelSeparator=":"
+                    name="./mobileImage"                    
+                    rootPath="/content/dam"
+                    xtype="pathfield"/>
+            </items>
+        </tab3>
+    </items>
+</jcr:root>

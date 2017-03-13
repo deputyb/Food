@@ -1,0 +1,11 @@
+@import 'includes';
+
+html, body{
+  background: $white;
+  font-family: $default;
+  font-size: 10px;
+}
+
+.cq-placeholder{
+  display: none;
+}

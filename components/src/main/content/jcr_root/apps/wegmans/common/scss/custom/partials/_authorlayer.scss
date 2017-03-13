@@ -1,0 +1,21 @@
+/* Enable Hidden Fields For Editing */
+.aem-AuthorLayer-Edit{
+
+  .cq-placeholder{
+    display: block;
+  }
+
+
+  .toggle{
+    .content{
+      &:before{
+        content: "HIDDEN:";
+        float: left;
+      }
+      opacity: .2;
+      display: block;
+    }
+  }
+
+
+}

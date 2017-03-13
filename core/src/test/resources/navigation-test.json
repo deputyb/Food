@@ -1,0 +1,36 @@
+{
+   "jcr:primaryType":"cq:Page",
+   "jcr:createdBy":"admin",
+   "jcr:created":"Mon Nov 23 2015 11:50:48 GMT+0100",
+   "jcr:content":{
+      "jcr:primaryType":"cq:PageContent",
+      "jcr:createdBy":"admin",
+      "jcr:title":"English",
+      "cq:template":"/apps/wegmans/templates/page-templates/home-page-template",
+      "jcr:created":"Mon Nov 23 2015 11:50:48 GMT+0100",
+      "cq:lastModified":"Thu Nov 26 2015 14:42:58 GMT+0100",
+      "pageTitle":"Wegmans",
+      "sling:resourceType":"wegmans/components/pages/home",
+      "cq:designPath":"/etc/designs/wegmans",
+      "cq:lastModifiedBy":"admin",
+      "footer":{
+         "jcr:primaryType":"nt:unstructured",
+         "jcr:lastModifiedBy":"admin",
+         "jcr:lastModified":"Thu Nov 26 2015 14:42:58 GMT+0100",
+         "sling:resourceType":"wegmans/components/content/navigation/footer",
+         "items":{
+            "jcr:primaryType":"nt:unstructured",
+            "1":{
+               "jcr:primaryType":"nt:unstructured",
+               "pagePath":"/content/geometrixx-outdoors-mobile/en/contact",
+               "pageTitle":"Test 1"
+            },
+            "2":{
+               "jcr:primaryType":"nt:unstructured",
+               "pagePath":"/content/geometrixx-outdoors/en/women",
+               "pageTitle":"Test 2"
+            }
+         }
+      }
+   }
+}

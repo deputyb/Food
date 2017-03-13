@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description>wegmans Custom Tags</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>wegmans</short-name>
+    <uri>http://www.wegmans.com/taglibs/aem/wegmans</uri>
+
+    <tag>
+        <name>helloWorld</name>
+        <tag-class>com.wegmans.taglib.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <name>uniqueID</name>
+        <tag-class>com.wegmans.taglib.UniqueIDTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>video</name>
+        <tag-class>com.wegmans.taglib.VideoTag</tag-class>
+        <body-content>empty</body-content>
+    </tag> 
+    <tag>
+        <name>search</name>
+        <tag-class>com.wegmans.taglib.SearchTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>carousel</name>
+        <tag-class>com.wegmans.taglib.CarouselTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>placeholder</name>
+        <tag-class>com.wegmans.taglib.PlaceholderTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>article</name>
+        <tag-class>com.wegmans.taglib.ArticleTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>image</name>
+        <tag-class>com.wegmans.taglib.ImageTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>press-release</name>
+        <tag-class>com.wegmans.taglib.PressReleaseTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>author</name>
+        <tag-class>com.wegmans.taglib.AuthorTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>top-nav</name>
+        <tag-class>com.wegmans.taglib.TopNavigation</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>author-articles</name>
+        <tag-class>com.wegmans.taglib.AuthorArticlesTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>authorPath</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+	
+    <tag>
+        <name>slideshow</name>
+        <tag-class>com.wegmans.taglib.SlideshowTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    
+    <tag>
+        <name>disableEdit</name>
+        <tag-class>com.wegmans.taglib.DisableEditTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+</taglib>

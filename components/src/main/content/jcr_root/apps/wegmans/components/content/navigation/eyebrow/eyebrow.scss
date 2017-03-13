@@ -1,0 +1,54 @@
+@import 'src/main/content/jcr_root/apps/wegmans/common/scss/custom/includes';
+.component-eyebrow-navigation {
+  nav {
+    background: white;
+    height: 60px;
+    text-align: right;
+    padding: 0 30px;
+  }
+
+  input {
+    border-radius: 3px;
+    border: 1px solid #343434; // mine shaft
+    float: left;
+    height: 32px;
+    margin-top: 13px;
+    padding: 0 24px 0 37px;
+    width: auto;
+  }
+
+  input[placeholder] {
+//   font family Myriad Pro Regular
+    color: #2F2F2F; // mine shaft
+    font-size: 12px;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #2F2F2F;
+  }
+
+  a.nav-item {
+    color: #343434;
+    display: inline-block;
+    font-size: 12px;
+    height: 100%;
+    line-height: 12px;
+    padding: 27px 16px 24px 0;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    &:after {
+      content: '•';
+      margin-left: 13px;
+    }
+
+    &:last-child {
+      padding-right: 0;
+
+      &:after {
+        content: '';
+        margin-left: 0;
+      }
+    }
+  }
+}

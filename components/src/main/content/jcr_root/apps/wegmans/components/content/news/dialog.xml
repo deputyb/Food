@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+  jcr:primaryType="cq:TabPanel"
+  activeTab="0"
+  helpPath="en/cq/current/wcm/default_components.html#Text Image"
+  xtype="tabpanel">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tab1
+        jcr:primaryType="cq:Widget"
+        anchor="100%"
+        title="News"
+        xtype="panel">
+        <items jcr:primaryType="cq:WidgetCollection">
+          <title
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Title"
+            name="./jcr:content/jcr:title"/>
+            <tags
+                jcr:primaryType="cq:Widget"
+                fieldLabel="tags"
+                xtype="tags"
+                name="./jcr:content/jcr:tags"/>
+                <body
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Body"
+                    xtype="richtext"
+                    name="./jcr:content/jcr:body"/>
+                    <resType
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./jcr:content/image/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                    </items>
+                </tab1>
+                <tab2
+                    jcr:primaryType="cq:Widget"
+                    cropParameter="./imageCrop"
+                    ddGroups="[media]"
+                    fileNameParameter="./fileName"
+                    fileReferenceParameter="./fileReference"
+                    mapParameter="./imageMap"
+                    name="./file"
+                    requestSuffix=".img.png"
+                    rotateParameter="./imageRotate"
+                    sizeLimit="100"
+                    title="Image"
+                    xtype="html5smartimage"/>
+                    <tab3
+                        jcr:primaryType="cq:Widget"
+                        title="Asset"
+                        xtype="panel">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <assetPath
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Choose asset path"
+                                labelSeparator=":"
+                                name="./assetPath"
+                                rootPath="/etc/assets/scaffolding/news"
+                                xtype="pathfield"/>
+                            </items>
+                        </tab3>
+                    </items>
+                </jcr:root>

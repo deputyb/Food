@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <reports/>
+    <clientlibs-all/>
+    <components/>
+    <jcr:content
+        cq:lastModified="{Date}2015-08-25T14:28:39.120-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured">
+        <generic-page jcr:primaryType="nt:unstructured">
+            <hero
+                jcr:lastModified="{Date}2015-08-25T14:27:55.148-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Columns,group:Wegmans">
+                <section jcr:primaryType="nt:unstructured"/>
+            </hero>
+            <side
+                jcr:lastModified="{Date}2015-08-25T14:28:10.415-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Columns,group:Wegmans">
+                <section jcr:primaryType="nt:unstructured"/>
+            </side>
+            <content
+                jcr:lastModified="{Date}2015-08-25T14:28:25.853-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Columns,group:Wegmans">
+                <section jcr:primaryType="nt:unstructured"/>
+            </content>
+            <footer
+                jcr:lastModified="{Date}2015-08-25T14:28:39.116-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Columns,group:Wegmans">
+                <section jcr:primaryType="nt:unstructured"/>
+            </footer>
+        </generic-page>
+    </jcr:content>
+</jcr:root>

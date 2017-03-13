@@ -1,0 +1,16 @@
+{
+    "jcr:primaryType":"cq:Page",
+    "jcr:content":{
+        "jcr:primaryType":"cq:PageContent",
+        "jcr:title":"English",
+        "cq:template":"/apps/wegmans/templates/page-templates/home-page-template",
+        "pageTitle":"Wegmans",
+        "sling:resourceType":"wegmans/components/pages/home",
+        "cq:designPath":"/etc/designs/wegmans",
+        "personal_information":{
+            "jcr:primaryType":"nt:unstructured",
+            "sling:resourceType":"wegmans/components/content/my_account/personal_information",
+            "editPagePath": "/content/wegmans/en/my_account/edit"
+        }
+    }
+}

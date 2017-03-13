@@ -1,0 +1,10 @@
+@import 'src/main/content/jcr_root/apps/wegmans/common/scss/custom/includes';
+
+content{
+
+  p{
+    @include font-size(1.2);
+  }
+
+}
+
