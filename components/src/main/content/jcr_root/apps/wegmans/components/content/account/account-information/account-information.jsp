@@ -1,5 +1,5 @@
 <%@include file="/apps/wegmans/components/global/global.jsp"%>
-Hello!
+
 
 <div id="account_information">
     <h3>Account information</h3>
